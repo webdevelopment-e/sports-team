@@ -1,0 +1,67 @@
+.team-detail{
+    background-color:purple;
+    /* margin: auto; */
+}
+
+.middle-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 250px;
+}
+.middle-part h3{
+    color: red;
+    font-size: 30px;
+}
+
+.container{
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    background-color: tomato;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+}
+.half-width-one{
+    text-align: left;
+    width: 500px;
+}
+.half-width-two{
+    width: 500px;
+}
+.half-width-two img{
+    width: 100%;
+}
+
+.half-width-one{
+    color: whitesmoke;
+}
+.description{
+    text-align: start;
+    color: rgb(212, 195, 195);
+    margin: 10px;
+    padding: 20px;
+    padding-top: 50px;
+}
+.social-link{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.social-link p{
+    
+    margin: 5px;
+    font-size: 30px;
+}
+.facebook{
+    color: rgb(86, 65, 226);
+}
+.twitter{
+    color: dodgerblue;
+}
+.youtube{
+    color: rgb(207, 24, 24);
+}

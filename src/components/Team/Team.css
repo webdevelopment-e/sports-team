@@ -1,0 +1,43 @@
+.team{
+  display: inline-flex;
+
+}
+
+
+
+.team-object img{
+    width: 150px;
+    height: 150px;
+}
+.team-object{
+    height: 320px;
+    width: 300px;
+    border: 2px solid white;
+    background-color: tomato;
+    margin: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.team-object p{
+    font-size: 2opx;
+    color: indigo;
+
+}
+
+.team-object h3{
+    color: maroon;
+}
+.team-object h2{
+    color: khaki;
+}
+
+.main-button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    color:navy;
+    border-style: none;
+    background-image: linear-gradient(60deg, purple, rgb(192, 127, 7));
+    cursor: pointer;
+}
